@@ -1,7 +1,7 @@
 # BTK-Asp-DotNet-Core-Web-Api
 BTK Akademi ASP.NET Core Web API Eğitimi
 
-- [x] Eğitim İçeriği
+ &#9745; Eğitim İçeriği
 - [x] API, HTTP, REST, RESTful
 - [x] ASP.NET Core
 - [x] Logging
