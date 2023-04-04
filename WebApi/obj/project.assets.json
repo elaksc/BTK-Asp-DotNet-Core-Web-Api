@@ -285,10 +285,10 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Mvc.NewtonsoftJson/6.0.10": {
+      "Microsoft.AspNetCore.Mvc.NewtonsoftJson/6.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.JsonPatch": "6.0.10",
+          "Microsoft.AspNetCore.JsonPatch": "6.0.0",
           "Newtonsoft.Json": "13.0.1",
           "Newtonsoft.Json.Bson": "1.0.2"
         },
@@ -1896,6 +1896,7 @@
         "dependencies": {
           "Microsoft.AspNetCore.JsonPatch": "6.0.10",
           "Microsoft.AspNetCore.Mvc.Core": "2.2.5",
+          "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "6.0.0",
           "Services": "1.0.0"
         },
         "compile": {
@@ -2158,10 +2159,10 @@
         "microsoft.aspnetcore.mvc.core.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Mvc.NewtonsoftJson/6.0.10": {
-      "sha512": "ok09jxzJ57s63dQtzlMGPAo4w3pTR3zZoNp0bTT0J4rKJgoJz8uhBHzr6PeCnRNWAOu0nm0b1irg5LhSDwEOBQ==",
+    "Microsoft.AspNetCore.Mvc.NewtonsoftJson/6.0.0": {
+      "sha512": "YMwSWgBuwkVn9k4/2wWxfwEbx8T5Utj13UH/zmUm5lbkKcY+tJyt9w9P4rY5pO1XtCitoh1+L+Feqz9qxG/CvA==",
       "type": "package",
-      "path": "microsoft.aspnetcore.mvc.newtonsoftjson/6.0.10",
+      "path": "microsoft.aspnetcore.mvc.newtonsoftjson/6.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2169,7 +2170,7 @@
         "THIRD-PARTY-NOTICES.TXT",
         "lib/net6.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll",
         "lib/net6.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.xml",
-        "microsoft.aspnetcore.mvc.newtonsoftjson.6.0.10.nupkg.sha512",
+        "microsoft.aspnetcore.mvc.newtonsoftjson.6.0.0.nupkg.sha512",
         "microsoft.aspnetcore.mvc.newtonsoftjson.nuspec"
       ]
     },
@@ -5534,7 +5535,6 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "Entities >= 1.0.0",
-      "Microsoft.AspNetCore.Mvc.NewtonsoftJson >= 6.0.10",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.10",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.10",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.10",
@@ -5597,10 +5597,6 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
-          "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
-            "target": "Package",
-            "version": "[6.0.10, )"
-          },
           "Microsoft.EntityFrameworkCore.Design": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
