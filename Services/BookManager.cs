@@ -24,10 +24,11 @@ namespace Services
             _mapper = mapper;
         }
 
-        public Book CreateOneBook(Book book) { 
-            _manager.Book.CreateOneBook(book);
+        public BookDto CreateOneBook(BookDtoForInsertion bookDto) {
+            var entity = _mapper.Map<Book>(bookDto);
+            _manager.Book.CreateOneBook(entity);
             _manager.Save(); 
-            return book;
+            return _mapper.Map<BookDto>(entity);
         }
 
         public void DeleteOneBook(int id, bool trackChanges)
@@ -51,14 +52,14 @@ namespace Services
             return _mapper.Map<IEnumerable<BookDto>>(books); //ilgili map işlemi gerçekleştirildi. 
         }
 
-        public Book GetOneBokById(int id, bool trackChanges)
+        public BookDto GetOneBokById(int id, bool trackChanges)
         {
             var book = _manager.Book.GetOneBookByID(id,trackChanges);
             if(book is null)
             {
                 throw new BookNotFoundException(id);
             }
-            return book;
+            return _mapper.Map<BookDto>(book);
         }
 
         public void UpdateOneBook(int id, BookDtoForUpdate bookDto,bool trackChanges)
