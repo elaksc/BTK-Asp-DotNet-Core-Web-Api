@@ -77,3 +77,5 @@ C:\Users\lenovo\Desktop\Yeni klasör\basics\bsStoreApp\WebApi\bin\Debug\net6.0\P
 C:\Users\lenovo\Desktop\Yeni klasör\basics\bsStoreApp\WebApi\bin\Debug\net6.0\nlog.config
 C:\Users\lenovo\Desktop\Yeni klasör\basics\bsStoreApp\WebApi\bin\Debug\net6.0\NLog.dll
 C:\Users\lenovo\Desktop\Yeni klasör\basics\bsStoreApp\WebApi\bin\Debug\net6.0\NLog.Extensions.Logging.dll
+C:\Users\lenovo\Desktop\Yeni klasör\basics\bsStoreApp\WebApi\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\lenovo\Desktop\Yeni klasör\basics\bsStoreApp\WebApi\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
