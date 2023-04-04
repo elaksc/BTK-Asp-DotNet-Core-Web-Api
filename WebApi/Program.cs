@@ -14,8 +14,9 @@ builder.Services.AddControllers(config =>
     config.RespectBrowserAcceptHeader = true;
     config.ReturnHttpNotAcceptable = true;
 })
-    .AddApplicationPart(typeof(Presentation.AssemblyReference).Assembly)
-    .AddNewtonsoftJson() ;
+ .AddXmlDataContractSerializerFormatters() //Xml formatýnda da bir çýkýþ verebilsin diye eklendi.
+ .AddApplicationPart(typeof(Presentation.AssemblyReference).Assembly)
+ .AddNewtonsoftJson() ;
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
