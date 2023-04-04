@@ -62,11 +62,12 @@ namespace Presentation.Controller
         [HttpPut("{id:int}")]
         public IActionResult UpdateOneBook([FromRoute(Name = "id")] int id, [FromBody] BookDtoForUpdate bookDto)
         {
-            var entity = _manager.BookService.GetOneBokById(id, true);
-            
-                                  //Check id
             if (bookDto is null)
                 return BadRequest(); //400
+            if (!ModelState.IsValid)
+            {
+                return UnprocessableEntity(ModelState);
+            }
 
             _manager.BookService.UpdateOneBook(id, bookDto, false);
             return NoContent();
