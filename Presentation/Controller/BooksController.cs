@@ -97,7 +97,7 @@ namespace Presentation.Controller
             {
                 return UnprocessableEntity(ModelState);
             }
-            _manager.BookService.SaveChancesForPatchAsync(result.bookDtoForUpdate, result.book);
+            await _manager.BookService.SaveChancesForPatchAsync(result.bookDtoForUpdate, result.book);
             return NoContent();
         }
 
