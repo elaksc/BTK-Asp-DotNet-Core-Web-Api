@@ -12,8 +12,8 @@ BTK Akademi ASP.NET Core Web API Eğitimi
  - &#9745; NLog Uygulaması (NLog Implementation)
  - &#9745; Global Hata Yönetimi (Global Error Handling)
  - &#9745; AutoMapper
- - İçerik Pazarlığı (Content Negotiation)
- - Doğrulama (Validation)
+ - &#9745; İçerik Pazarlığı (Content Negotiation)
+ - &#9745; Doğrulama (Validation)
  - Asenkron Kod (Asynchronous Code)
  - Eylem Filtreleri (Action Filters)
  - Sayfalama (Pagination)
