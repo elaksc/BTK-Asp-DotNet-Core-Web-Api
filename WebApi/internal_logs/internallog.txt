@@ -61,3 +61,5 @@
 2023-04-05 01:33:08.6605 Info Message Template Auto Format enabled
 2023-04-05 01:33:08.8231 Info Registered target NLog.Targets.FileTarget(Name=logfile)
 2023-04-05 01:33:08.8695 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\lenovo\Desktop\Yeni klasör\basics\bsStoreApp\WebApi\nlog.config
+2023-04-05 01:57:19.0601 Info AppDomain Shutting down. LogFactory closing...
+2023-04-05 01:57:19.1028 Info LogFactory has been closed.
