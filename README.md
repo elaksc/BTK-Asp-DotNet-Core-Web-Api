@@ -14,8 +14,8 @@ BTK Akademi ASP.NET Core Web API Eğitimi
  - &#9745; AutoMapper
  - &#9745; İçerik Pazarlığı (Content Negotiation)
  - &#9745; Doğrulama (Validation)
- - Asenkron Kod (Asynchronous Code)
- - Eylem Filtreleri (Action Filters)
+ - &#9745; Asenkron Kod (Asynchronous Code)
+ - &#9745; Eylem Filtreleri (Action Filters)
  - Sayfalama (Pagination)
  - Filtreleme (Filtering)
  - Arama (Searching)
