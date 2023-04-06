@@ -13,6 +13,7 @@ using System.Threading.Tasks;
 
 namespace Presentation.Controller
 {
+    [ServiceFilter(typeof(LogFilterAttribute))]
     [Route("api/books")]
     [ApiController]
     public class BooksController : ControllerBase
@@ -49,7 +50,6 @@ namespace Presentation.Controller
             var book = await _manager.BookService.CreateOneBookAsync(bookDto);
             return StatusCode(201, book); //CreatedAtRoute()
         }
-
         [ServiceFilter(typeof(ValidationFilterAttribute))] //Bunun sayesinde aşağıdaki kod bloklarına ihtiyaç olmayacak
         [HttpPut("{id:int}")]
         public async Task<IActionResult> UpdateOneBookAsync([FromRoute(Name = "id")] int id, [FromBody] BookDtoForUpdate bookDto)
