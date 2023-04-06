@@ -41,7 +41,7 @@ namespace Presentation.Controller
             return Ok(book);
         }
 
-
+        
         [HttpPost]
         public async Task<IActionResult> CreateOneBookAsync([FromBody] BookDtoForInsertion bookDto)
         {
