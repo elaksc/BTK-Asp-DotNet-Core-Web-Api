@@ -20,14 +20,13 @@ namespace Presentation.ActionFilters
             var param = context.ActionArguments
                                 .SingleOrDefault(p => p.Value.ToString().Contains("Dto")).Value; // Dto var ise değerini alıyoruz 
 
-            if (param != null)
+            if (param is null)
             {
-                context.Result = new BadRequestObjectResult($"Object is null" + $"Controller : {controller}" + $"Action : {action}");
+                context.Result = new BadRequestObjectResult($"Object is null " + $"Controller : {controller}" + $"Action : {action}");
                 return; //400
             }
-            if (context.ModelState.IsValid)
+            if (!context.ModelState.IsValid)
                 context.Result = new UnprocessableEntityObjectResult(context.ModelState); // 422 Doğrulama gerçekleşmedi
-            base.OnActionExecuting(context);
         }
     }
 }
