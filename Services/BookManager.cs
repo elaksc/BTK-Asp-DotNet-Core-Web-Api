@@ -42,10 +42,13 @@ namespace Services
 
         }
 
-        public async Task<IEnumerable<BookDto>> GetAllBooksAsync(BookParameters bookParameters, bool trackChanges)
+        public async Task<(IEnumerable<BookDto> books, MetaData metaData)> GetAllBooksAsync(BookParameters bookParameters, bool trackChanges)
         {
-            var books = await _manager.Book.GetAllBooksAsync(bookParameters, trackChanges);
-            return _mapper.Map<IEnumerable<BookDto>>(books); //ilgili map işlemi gerçekleştirildi. 
+            var booksWithMetaData = await _manager
+                .Book
+                .GetAllBooksAsync(bookParameters, trackChanges);
+            var booksDto= _mapper.Map<IEnumerable<BookDto>>(booksWithMetaData); //ilgili map işlemi gerçekleştirildi. 
+            return (booksDto, booksWithMetaData.MetaData);
         }
 
         public async Task<BookDto> GetOneBokByIdAsync(int id, bool trackChanges)
