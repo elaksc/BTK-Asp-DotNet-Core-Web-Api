@@ -31,8 +31,10 @@ namespace Presentation.Controller
         [HttpGet]
         public async Task<IActionResult> GetAllBooksAsync([FromQuery]BookParameters bookParameters) // FromQuery kullandığımız zaman biliyoruz ki bu ifadeler bir query string üzerinden gelicek.
         {
-            var pagedResult = await _manager.BookService.GetAllBooksAsync(bookParameters, false);
-            Response.Headers.Add("X - Pagination", JsonSerializer.Serialize(pagedResult.metaData));
+            var pagedResult = await _manager
+                .BookService
+                .GetAllBooksAsync(bookParameters, false);
+            Response.Headers.Add("X-Pagination", JsonSerializer.Serialize(pagedResult.metaData));
             return Ok(pagedResult.books);
         }
 
