@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "30Ap/gEi2BJ0jUfHrx9sJQox3+yxLsGXiscOXFQdYQwLZnu6qoFmBwVDt4hD+b/DGEuxHhUXC0+t/oy6qQANfg==",
+  "dgSpecHash": "YC2wWOkIbyQSOi2YSTtcVCZz2HjAIhz2HiGmog//himtVjHwD+9k/xmYe0Pq6Q7BnlyeFF0mjje4t5eECUKvMg==",
   "success": true,
   "projectFilePath": "C:\\Users\\lenovo\\Desktop\\Yeni klasör\\basics\\bsStoreApp\\Repositories\\Repositories.csproj",
   "expectedPackageFiles": [
@@ -17,6 +17,7 @@
     "C:\\Users\\lenovo\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "C:\\Users\\lenovo\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\lenovo\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
+    "C:\\Users\\lenovo\\.nuget\\packages\\system.linq.dynamic.core\\1.3.2\\system.linq.dynamic.core.1.3.2.nupkg.sha512",
     "C:\\Users\\lenovo\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
   "logs": []

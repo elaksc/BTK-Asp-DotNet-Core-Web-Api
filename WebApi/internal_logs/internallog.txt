@@ -114,3 +114,6 @@
 2023-04-15 00:58:46.6164 Info Message Template Auto Format enabled
 2023-04-15 00:58:46.8308 Info Registered target NLog.Targets.FileTarget(Name=logfile)
 2023-04-15 00:58:46.8716 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\lenovo\Desktop\Yeni klasör\basics\bsStoreApp\WebApi\nlog.config
+2023-04-20 02:15:55.4776 Info Message Template Auto Format enabled
+2023-04-20 02:15:57.0264 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-04-20 02:15:57.1135 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\lenovo\Desktop\Yeni klasör\basics\bsStoreApp\WebApi\nlog.config

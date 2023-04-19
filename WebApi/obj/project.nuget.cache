@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "rIa5sYK92yiZQ87rrF21eXm0ucu1tT/9ssWy8rXU2tdSBCA31MFVewT5RSyIIWJpnhoaGLKu3GPReXIH6nv+MA==",
+  "dgSpecHash": "fPmFzl1OFdN/Mp3uaJlI6EshpQmtVTSO9LlC8ZfX5pchXX3w4HdcCGIe14/NhvgNd+s8d9pKjlokhXO09nnd4Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\lenovo\\Desktop\\Yeni klasör\\basics\\bsStoreApp\\WebApi\\WebApi.csproj",
   "expectedPackageFiles": [
@@ -86,6 +86,7 @@
     "C:\\Users\\lenovo\\.nuget\\packages\\system.io.filesystem\\4.0.1\\system.io.filesystem.4.0.1.nupkg.sha512",
     "C:\\Users\\lenovo\\.nuget\\packages\\system.io.filesystem.primitives\\4.0.1\\system.io.filesystem.primitives.4.0.1.nupkg.sha512",
     "C:\\Users\\lenovo\\.nuget\\packages\\system.linq\\4.1.0\\system.linq.4.1.0.nupkg.sha512",
+    "C:\\Users\\lenovo\\.nuget\\packages\\system.linq.dynamic.core\\1.3.2\\system.linq.dynamic.core.1.3.2.nupkg.sha512",
     "C:\\Users\\lenovo\\.nuget\\packages\\system.linq.expressions\\4.1.0\\system.linq.expressions.4.1.0.nupkg.sha512",
     "C:\\Users\\lenovo\\.nuget\\packages\\system.objectmodel\\4.0.12\\system.objectmodel.4.0.12.nupkg.sha512",
     "C:\\Users\\lenovo\\.nuget\\packages\\system.reflection\\4.1.0\\system.reflection.4.1.0.nupkg.sha512",
