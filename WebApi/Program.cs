@@ -36,6 +36,7 @@ builder.Services.ConfigureServiceManager();
 builder.Services.ConfigureLoggerService();
 builder.Services.AddAutoMapper(typeof(Program));
 builder.Services.AddCors();
+builder.Services.ConfigureDataShaper(); 
 
 var app = builder.Build();
 
