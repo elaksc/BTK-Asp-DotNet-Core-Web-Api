@@ -16,11 +16,11 @@ BTK Akademi ASP.NET Core Web API Eğitimi
  - &#9745; Doğrulama (Validation)
  - &#9745; Asenkron Kod (Asynchronous Code)
  - &#9745; Eylem Filtreleri (Action Filters)
- - Sayfalama (Pagination)
- - Filtreleme (Filtering)
- - Arama (Searching)
- - Sıralama (Sorting)
- - Veri Şekillendirme (Data Shaping)
+ - &#9745; Sayfalama (Pagination)
+ - &#9745; Filtreleme (Filtering)
+ - &#9745; Arama (Searching)
+ - &#9745; Sıralama (Sorting)
+ - &#9745; Veri Şekillendirme (Data Shaping)
  - HATEOAS
  - HEAD ve OPTIONS
  - Kök Belge (Root Documentation)
