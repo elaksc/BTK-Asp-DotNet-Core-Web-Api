@@ -27,7 +27,7 @@ namespace Presentation.Controller
             _manager = manager;
         }
 
-
+        [HttpHead]
         [HttpGet]
         public async Task<IActionResult> GetAllBooksAsync([FromQuery]BookParameters bookParameters) // FromQuery kullandığımız zaman biliyoruz ki bu ifadeler bir query string üzerinden gelicek.
         {
@@ -92,6 +92,14 @@ namespace Presentation.Controller
             await _manager.BookService.SaveChancesForPatchAsync(result.bookDtoForUpdate, result.book);
             return NoContent();
         }
+        [HttpOptions]
+        public IActionResult GetBookOptions()
+        {
+            Response.Headers.Add("Allow", "GET, PUT, POST, PATCH, DELETE, HEAD, OPTIONS");
+            return Ok();
+        }
+
+        
 
     }
 
