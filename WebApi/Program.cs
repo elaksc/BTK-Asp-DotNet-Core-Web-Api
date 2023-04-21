@@ -36,7 +36,9 @@ builder.Services.ConfigureServiceManager();
 builder.Services.ConfigureLoggerService();
 builder.Services.AddAutoMapper(typeof(Program));
 builder.Services.AddCors();
-builder.Services.ConfigureDataShaper(); 
+builder.Services.ConfigureDataShaper();
+builder.Services.AddCustomMediaType();
+
 
 var app = builder.Build();
 
