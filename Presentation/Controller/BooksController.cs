@@ -29,6 +29,7 @@ namespace Presentation.Controller
 
         [HttpHead]
         [HttpGet]
+        [ServiceFilter(typeof(ValidateMediaTypeAttribute))]
         public async Task<IActionResult> GetAllBooksAsync([FromQuery]BookParameters bookParameters) // FromQuery kullandığımız zaman biliyoruz ki bu ifadeler bir query string üzerinden gelicek.
         {
             var pagedResult = await _manager

@@ -33,6 +33,7 @@ namespace WebApi.Extensions
         {
             services.AddScoped<ValidationFilterAttribute>();
             services.AddSingleton<LogFilterAttribute>();
+            services.AddScoped<ValidateMediaTypeAttribute>();
         }
         public static void ConfigureCors(this IServiceCollection services)
         {
@@ -45,7 +46,6 @@ namespace WebApi.Extensions
             .WithExposedHeaders("X-Pagination"));
             });
         }
-
         public static void ConfigureDataShaper(this IServiceCollection services)
         {
             services.AddScoped<IDataShaper<BookDto>, DataShaper<BookDto>>();
