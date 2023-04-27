@@ -28,7 +28,7 @@ namespace Presentation.Controller
         }
 
         [HttpHead]
-        [HttpGet]
+        [HttpGet(Name = "GetAllBooksAsync")]
         [ServiceFilter(typeof(ValidateMediaTypeAttribute))]
         public async Task<IActionResult> GetAllBooksAsync([FromQuery]BookParameters bookParameters) // FromQuery kullandığımız zaman biliyoruz ki bu ifadeler bir query string üzerinden gelicek.
         {
@@ -57,7 +57,7 @@ namespace Presentation.Controller
         }
 
         [ServiceFilter(typeof(ValidationFilterAttribute))] //Bunun sayesinde aşağıdaki kod bloklarına ihtiyaç olmayacak
-        [HttpPost]
+        [HttpPost(Name = "CreateOneBookAsync")]
         public async Task<IActionResult> CreateOneBookAsync([FromBody] BookDtoForInsertion bookDto)
         {
             var book = await _manager.BookService.CreateOneBookAsync(bookDto);
