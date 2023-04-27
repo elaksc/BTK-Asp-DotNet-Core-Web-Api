@@ -85,3 +85,4 @@ C:\Users\lenovo\Desktop\Yeni klasör\basics\bsStoreApp\WebApi\obj\Debug\net6.0\s
 C:\Users\lenovo\Desktop\Yeni klasör\basics\bsStoreApp\WebApi\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.WebApi.props
 C:\Users\lenovo\Desktop\Yeni klasör\basics\bsStoreApp\WebApi\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.WebApi.props
 C:\Users\lenovo\Desktop\Yeni klasör\basics\bsStoreApp\WebApi\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\lenovo\Desktop\Yeni klasör\basics\bsStoreApp\WebApi\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Versioning.dll
