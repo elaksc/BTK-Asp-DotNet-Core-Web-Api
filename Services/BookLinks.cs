@@ -33,25 +33,55 @@ namespace Services
             return ReturnShaoedBooks(shapedBooks);
 
         }
-
-        private LinkResponse ReturnLinkedBooks(IEnumerable<BookDto> booksDto, string fields, HttpContext httpContext, List<Entity> shapedBooks)
+        private LinkResponse ReturnLinkedBooks(IEnumerable<BookDto> booksDto,
+                   string fields,
+                   HttpContext httpContext,
+                   List<Entity> shapedBooks)
         {
             var bookDtoList = booksDto.ToList();
-            for(int i = 0; i <bookDtoList.Count; i++)
+
+            for (int index = 0; index < bookDtoList.Count(); index++)
             {
-                var bookLinks = CreateForBook(httpContext, bookDtoList[i], fields);
-                shapedBooks[i].Add("Links", bookLinks);
+                var bookLinks = CreateForBook(httpContext, bookDtoList[index], fields);
+                shapedBooks[index].Add("Links", bookLinks);
             }
+
             var bookCollection = new LinkCollectionWrapper<Entity>(shapedBooks);
-            return new LinkResponse { HasLinks = true, LinkedEntites = bookCollection };
+            CreateForBooks(httpContext, bookCollection);
+            return new LinkResponse { HasLinks = true, LinkedEntities = bookCollection };
         }
+
+        private LinkCollectionWrapper<Entity> CreateForBooks(HttpContext httpContext,
+            LinkCollectionWrapper<Entity> bookCollectionWrapper)
+        {
+            bookCollectionWrapper.Links.Add(new Link()
+            {
+                Href = $"/api/{httpContext.GetRouteData().Values["controller"].ToString().ToLower()}",
+                Rel = "self",
+                Method = "GET"
+            });
+            return bookCollectionWrapper;
+        }
+
+
 
         private List<Link> CreateForBook(HttpContext httpContext, BookDto bookDto, string fields)
         {
             var links = new List<Link>()
             {
-                new Link("a1","a2","a3"),
-                new Link("a1","a2","a3")
+                new Link()
+                {
+                    Href = $"/api/{httpContext.GetRouteData().Values["controller"].ToString().ToLower()}" +
+                    $"/{bookDto.Id}",
+                    Rel = "self",
+                    Method = "GET"
+                },
+                new Link()
+                {
+                    Href =  $"/api/{httpContext.GetRouteData().Values["controller"].ToString().ToLower()}",
+                    Rel = "create",
+                    Method = "POST"
+                }
 
             };
             return links;

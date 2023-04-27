@@ -27,12 +27,12 @@ namespace Presentation.ActionFilters
 
 
             var mediaType = context.HttpContext
-                .Response
+                .Request
                 .Headers["Accept"]
                 .FirstOrDefault(); // Accept var. 
 
 
-            if (MediaTypeHeaderValue.TryParse(mediaType, out MediaTypeHeaderValue? outMediaType))  //desteklediğimiz bir type mı
+            if (!MediaTypeHeaderValue.TryParse(mediaType, out MediaTypeHeaderValue? outMediaType))  //desteklediğimiz bir type mı
             {
                 context.Result = new BadRequestObjectResult($"Media Type not present. " + $"Please add Accept header with required media type");
                 return;

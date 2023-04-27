@@ -1,0 +1,25 @@
+2023-04-28 00:03:48.7732 INFO {"ModelName":"OnActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2023-04-27T21:03:48.7069859Z"}
+2023-04-28 00:04:02.2782 INFO {"ModelName":"OnActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2023-04-27T21:04:02.2781328Z"}
+2023-04-28 00:21:45.2918 INFO {"ModelName":"OnActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2023-04-27T21:21:45.2118492Z"}
+2023-04-28 00:22:13.6593 INFO {"ModelName":"OnActionExecuting","Controller":"Books","Action":"GetOneBook","Id":null,"CreateAt":"2023-04-27T21:22:13.6591589Z"}
+2023-04-28 00:22:13.8452 ERROR Something went wrong: Entities.Exceptions.BookNotFoundException: The book with id : 5 could not found
+   at Services.BookManager.GetOneBookByIdAndCheckExists(Int32 id, Boolean trackChanges) in C:\Users\lenovo\Desktop\Yeni klasör\basics\bsStoreApp\Services\BookManager.cs:line 108
+   at Services.BookManager.GetOneBokByIdAsync(Int32 id, Boolean trackChanges) in C:\Users\lenovo\Desktop\Yeni klasör\basics\bsStoreApp\Services\BookManager.cs:line 69
+   at Presentation.Controller.BooksController.GetOneBookAsync(Int32 id) in C:\Users\lenovo\Desktop\Yeni klasör\basics\bsStoreApp\Presentation\Controller\BooksController.cs:line 53
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-04-28 00:22:19.5865 INFO {"ModelName":"OnActionExecuting","Controller":"Books","Action":"GetOneBook","Id":null,"CreateAt":"2023-04-27T21:22:19.5865188Z"}
+2023-04-28 00:39:57.1149 INFO {"ModelName":"OnActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2023-04-27T21:39:57.0583488Z"}
+2023-04-28 00:45:55.3888 INFO {"ModelName":"OnActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2023-04-27T21:45:55.3429406Z"}
