@@ -21,8 +21,8 @@ BTK Akademi ASP.NET Core Web API Eğitimi
  - &#9745; Arama (Searching)
  - &#9745; Sıralama (Sorting)
  - &#9745; Veri Şekillendirme (Data Shaping)
- - HATEOAS
- - HEAD ve OPTIONS
+ - &#9745; HATEOAS
+ - &#9745; HEAD ve OPTIONS
  - Kök Belge (Root Documentation)
  - Versiyonlama (Versioning)
  - Önbelleğe Alma (Caching)
