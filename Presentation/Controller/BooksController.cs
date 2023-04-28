@@ -2,6 +2,7 @@
 using Entities.Exceptions;
 using Entities.Models;
 using Entities.RequestFeatures;
+using Marvin.Cache.Headers;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
 using Presentation.ActionFilters;
@@ -17,8 +18,10 @@ namespace Presentation.Controller
 {
     //[ApiVersion("1.0")]
     [ServiceFilter(typeof(LogFilterAttribute))]
-    [Route("api/books")]
+    [Route("api/books")] 
     [ApiController]
+    //[HttpCacheExpiration(CacheLocation = CacheLocation.Public,MaxAge =80)]
+    //[ResponseCache(CacheProfileName = "5mins")]
     public class BooksController : ControllerBase
     {
         private readonly IServiceManager _manager;
@@ -29,6 +32,7 @@ namespace Presentation.Controller
         }
 
         [HttpHead]
+        //[ResponseCache(Duration = 60)]
         [HttpGet(Name = "GetAllBooksAsync")]
         [ServiceFilter(typeof(ValidateMediaTypeAttribute))]
         public async Task<IActionResult> GetAllBooksAsync([FromQuery]BookParameters bookParameters) // FromQuery kullandığımız zaman biliyoruz ki bu ifadeler bir query string üzerinden gelicek.

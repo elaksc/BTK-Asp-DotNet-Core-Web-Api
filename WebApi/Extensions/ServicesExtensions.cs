@@ -18,7 +18,7 @@ namespace WebApi.Extensions
         public static void ConfigureSqlContext(this IServiceCollection services, IConfiguration configuration) //hangi ifadeyi, tipi genişletmek istiyorsak this ile vermek zorundayız. Onu yazarız ama kullanmayız başka yerde
         => services.AddDbContext<RepositoryContext>(options =>
               options.UseSqlServer(configuration.GetConnectionString("sqlConnection")));
-        
+
         public static void ConfigureRepositoryManager(this IServiceCollection services)
         {
             services.AddScoped<IRepositoryManager, RepositoryManager>();
@@ -52,7 +52,7 @@ namespace WebApi.Extensions
         {
             services.AddScoped<IDataShaper<BookDto>, DataShaper<BookDto>>();
         }
-        public static void AddCustomMediaTypes(this IServiceCollection services )
+        public static void AddCustomMediaTypes(this IServiceCollection services)
         {
             services.Configure<MvcOptions>(config =>
             {
@@ -99,6 +99,22 @@ namespace WebApi.Extensions
                 .HasDeprecatedApiVersion(new ApiVersion(2, 0));
             });
         }
+
+        public static void ConfigureResponseCaching(this IServiceCollection services) =>
+            services.AddResponseCaching();
+
+
+        public static void ConfigureHttpCacheHeaders(this IServiceCollection services) =>
+            services.AddHttpCacheHeaders(expirationOpt =>
+            {
+                expirationOpt.MaxAge = 70;
+                expirationOpt.CacheLocation = Marvin.Cache.Headers.CacheLocation.Private;
+            },
+                validationOpt =>
+                {
+                    validationOpt.MustRevalidate = false;
+                });
+
     }
-    }
+}
 

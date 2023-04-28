@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "Y/Piu8xKwQip+EfMe28wp7tol0q2jdFS2RpBB2FsbwYeYDmj6bj6474ZSQXvWRKVimAbAzDZS+4ndXPoCpnaVw==",
+  "dgSpecHash": "SsNQCWL8ZTkAWWDGXJvE09RHYvkRXA1ioerYZQhM3mS2yBzjz/8YAIUrncP8eq3ni/qFCs4h6r+jOi8mxVjHTw==",
   "success": true,
   "projectFilePath": "C:\\Users\\lenovo\\Desktop\\Yeni klasör\\basics\\bsStoreApp\\Presentation\\Presentation.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lenovo\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\lenovo\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
+    "C:\\Users\\lenovo\\.nuget\\packages\\marvin.cache.headers\\6.0.0\\marvin.cache.headers.6.0.0.nupkg.sha512",
     "C:\\Users\\lenovo\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\lenovo\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
     "C:\\Users\\lenovo\\.nuget\\packages\\microsoft.aspnetcore.authorization\\2.2.0\\microsoft.aspnetcore.authorization.2.2.0.nupkg.sha512",
