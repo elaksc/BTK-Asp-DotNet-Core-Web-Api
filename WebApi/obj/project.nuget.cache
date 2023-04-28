@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "WuAhhJ3Yoe8IZTwZHvWInth539cZ0XzbVpsEmUB0LykyLwvuxp8k2tF7wwzrdhIt726fj1mb5rjFNR5j1VEVSQ==",
+  "dgSpecHash": "46YNANxdHZB8QaHaFmb1Lm6VLCVMa3fm4ieAqeekAOlBXqFM0u3xKUtUjSmPuPzFHO0rkBhBCUcb+NDxpWvmGQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\lenovo\\Desktop\\Yeni klasör\\basics\\bsStoreApp\\WebApi\\WebApi.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\lenovo\\.nuget\\packages\\aspnetcoreratelimit\\4.0.1\\aspnetcoreratelimit.4.0.1.nupkg.sha512",
     "C:\\Users\\lenovo\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\lenovo\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
     "C:\\Users\\lenovo\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
