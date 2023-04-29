@@ -24,9 +24,9 @@ BTK Akademi ASP.NET Core Web API Eğitimi
  - &#9745; HATEOAS
  - &#9745; HEAD ve OPTIONS
  - &#9745; Kök Belge (Root Documentation)
- - &#9745;  Versiyonlama (Versioning)
- - &#9745;  Önbelleğe Alma (Caching)
- - &#9745;  Hız Sınırlama ve Kısıtlama (Rate Limit and Throttling)
+ - &#9745; Versiyonlama (Versioning)
+ - &#9745; Önbelleğe Alma (Caching)
+ - &#9745; Hız Sınırlama ve Kısıtlama (Rate Limit and Throttling)
  - JWT, Identity ve Refresh Token
  - API Dokümantasyonu (API Documentation)
  - Bonus
