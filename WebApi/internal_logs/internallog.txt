@@ -421,3 +421,9 @@
 2023-05-23 00:21:42.6346 Info Message Template Auto Format enabled
 2023-05-23 00:21:42.8373 Info Registered target NLog.Targets.FileTarget(Name=logfile)
 2023-05-23 00:21:42.8879 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\elaka\OneDrive\Masaüstü\basics\bsStoreApp\WebApi\nlog.config
+2023-05-23 00:35:40.9538 Info Message Template Auto Format enabled
+2023-05-23 00:35:41.2052 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-05-23 00:35:41.2724 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\elaka\OneDrive\Masaüstü\basics\bsStoreApp\WebApi\nlog.config
+2023-05-23 00:50:22.8274 Info Message Template Auto Format enabled
+2023-05-23 00:50:23.0176 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-05-23 00:50:23.0819 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\elaka\OneDrive\Masaüstü\basics\bsStoreApp\WebApi\nlog.config
