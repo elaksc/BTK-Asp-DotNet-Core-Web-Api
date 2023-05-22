@@ -2095,6 +2095,7 @@
           "Entities": "1.0.0",
           "NLog.Extensions.Logging": "5.2.2",
           "Repositories": "1.0.0",
+          "System.IdentityModel.Tokens.Jwt": "6.0.10",
           "automapper.Extensions.Microsoft.DependencyInjection": "12.0.0"
         },
         "compile": {
@@ -6042,5 +6043,17 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Services depends on System.IdentityModel.Tokens.Jwt (>= 6.0.10) but System.IdentityModel.Tokens.Jwt 6.0.10 was not found. An approximate best match of System.IdentityModel.Tokens.Jwt 6.5.0 was resolved.",
+      "libraryId": "System.IdentityModel.Tokens.Jwt",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }

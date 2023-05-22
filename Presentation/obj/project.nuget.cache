@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "CvM9lGLIudtKQ+XkKLef3T+BlaoG9wyhCE6NWoZrPDU1VczaKYSI1KuyPkh2hcBC49OGXq29v4MA1k4XrJTdVA==",
+  "dgSpecHash": "uWnAiGLrm4OPG58KVuVGguAkWbsEirbaRs7CPRuQ7ni2GOgPcEwm/zNCRhiLCAlfA9EVle+ZCsXfXRpmllR0bA==",
   "success": true,
   "projectFilePath": "C:\\Users\\elaka\\OneDrive\\Masaüstü\\basics\\bsStoreApp\\Presentation\\Presentation.csproj",
   "expectedPackageFiles": [
@@ -50,6 +50,9 @@
     "C:\\Users\\elaka\\.nuget\\packages\\microsoft.extensions.objectpool\\2.2.0\\microsoft.extensions.objectpool.2.2.0.nupkg.sha512",
     "C:\\Users\\elaka\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
     "C:\\Users\\elaka\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\elaka\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.5.0\\microsoft.identitymodel.jsonwebtokens.6.5.0.nupkg.sha512",
+    "C:\\Users\\elaka\\.nuget\\packages\\microsoft.identitymodel.logging\\6.5.0\\microsoft.identitymodel.logging.6.5.0.nupkg.sha512",
+    "C:\\Users\\elaka\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.5.0\\microsoft.identitymodel.tokens.6.5.0.nupkg.sha512",
     "C:\\Users\\elaka\\.nuget\\packages\\microsoft.net.http.headers\\2.2.0\\microsoft.net.http.headers.2.2.0.nupkg.sha512",
     "C:\\Users\\elaka\\.nuget\\packages\\microsoft.netcore.platforms\\1.0.1\\microsoft.netcore.platforms.1.0.1.nupkg.sha512",
     "C:\\Users\\elaka\\.nuget\\packages\\microsoft.netcore.targets\\1.0.1\\microsoft.netcore.targets.1.0.1.nupkg.sha512",
@@ -66,6 +69,7 @@
     "C:\\Users\\elaka\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
     "C:\\Users\\elaka\\.nuget\\packages\\system.dynamic.runtime\\4.0.11\\system.dynamic.runtime.4.0.11.nupkg.sha512",
     "C:\\Users\\elaka\\.nuget\\packages\\system.globalization\\4.0.11\\system.globalization.4.0.11.nupkg.sha512",
+    "C:\\Users\\elaka\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.5.0\\system.identitymodel.tokens.jwt.6.5.0.nupkg.sha512",
     "C:\\Users\\elaka\\.nuget\\packages\\system.io\\4.1.0\\system.io.4.1.0.nupkg.sha512",
     "C:\\Users\\elaka\\.nuget\\packages\\system.io.filesystem\\4.0.1\\system.io.filesystem.4.0.1.nupkg.sha512",
     "C:\\Users\\elaka\\.nuget\\packages\\system.io.filesystem.primitives\\4.0.1\\system.io.filesystem.primitives.4.0.1.nupkg.sha512",
@@ -87,11 +91,23 @@
     "C:\\Users\\elaka\\.nuget\\packages\\system.runtime.handles\\4.0.1\\system.runtime.handles.4.0.1.nupkg.sha512",
     "C:\\Users\\elaka\\.nuget\\packages\\system.runtime.interopservices\\4.1.0\\system.runtime.interopservices.4.1.0.nupkg.sha512",
     "C:\\Users\\elaka\\.nuget\\packages\\system.runtime.interopservices.runtimeinformation\\4.0.0\\system.runtime.interopservices.runtimeinformation.4.0.0.nupkg.sha512",
+    "C:\\Users\\elaka\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512",
     "C:\\Users\\elaka\\.nuget\\packages\\system.text.encoding\\4.0.11\\system.text.encoding.4.0.11.nupkg.sha512",
     "C:\\Users\\elaka\\.nuget\\packages\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512",
     "C:\\Users\\elaka\\.nuget\\packages\\system.threading\\4.0.11\\system.threading.4.0.11.nupkg.sha512",
     "C:\\Users\\elaka\\.nuget\\packages\\system.threading.tasks\\4.0.11\\system.threading.tasks.4.0.11.nupkg.sha512",
     "C:\\Users\\elaka\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.1\\system.threading.tasks.extensions.4.5.1.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Services depends on System.IdentityModel.Tokens.Jwt (>= 6.0.10) but System.IdentityModel.Tokens.Jwt 6.0.10 was not found. An approximate best match of System.IdentityModel.Tokens.Jwt 6.5.0 was resolved.",
+      "libraryId": "System.IdentityModel.Tokens.Jwt",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }
