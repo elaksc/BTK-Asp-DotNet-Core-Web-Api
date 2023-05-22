@@ -72,6 +72,11 @@ namespace Services
             return books;
         }
 
+        public async Task<IEnumerable<Book>> GetAllBooksWithDetailsAsync(bool trackchanges)
+        {
+            return await _manager.Book.GetAllBooksWithDetailsAsync(trackchanges);
+        }
+
         public async Task<BookDto> GetOneBokByIdAsync(int id, bool trackChanges)
         {
             var book = await GetOneBookByIdAndCheckExists(id, trackChanges);

@@ -38,7 +38,7 @@ namespace Presentation.Controller
         //[ResponseCache(Duration = 60)]
         [HttpGet(Name = "GetAllBooksAsync")]
         [ServiceFilter(typeof(ValidateMediaTypeAttribute))]
-        public async Task<IActionResult> GetAllBooksAsync([FromQuery]BookParameters bookParameters) // FromQuery kullandığımız zaman biliyoruz ki bu ifadeler bir query string üzerinden gelicek.
+        public async Task<IActionResult> GetAllBooksAsync([FromQuery] BookParameters bookParameters) // FromQuery kullandığımız zaman biliyoruz ki bu ifadeler bir query string üzerinden gelicek.
         {
             var linkParameters = new LinkParameters()
             {
@@ -62,6 +62,15 @@ namespace Presentation.Controller
             if (book is null)
                 throw new BookNotFoundException(id);
             return Ok(book);
+        }
+
+        [Authorize]
+        [HttpGet("details")]
+        public async Task<IActionResult> GetAllBooksWithDetailsAsync()
+        {
+            return Ok(await _manager
+                .BookService
+                .GetAllBooksWithDetailsAsync(false));
         }
 
         [Authorize(Roles = "Admin, Editor")]

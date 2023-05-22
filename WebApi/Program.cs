@@ -20,8 +20,10 @@ builder.Services.AddControllers(config =>
     config.CacheProfiles.Add("5mins", new CacheProfile() { Duration = 300 });
 })
  .AddXmlDataContractSerializerFormatters() //Xml formatýnda da bir çýkýþ verebilsin diye eklendi.
- .AddApplicationPart(typeof(Presentation.AssemblyReference).Assembly);
- //.AddNewtonsoftJson() ;
+ .AddApplicationPart(typeof(Presentation.AssemblyReference).Assembly)
+ .AddNewtonsoftJson(opt => 
+    opt.SerializerSettings.ReferenceLoopHandling = 
+    Newtonsoft.Json.ReferenceLoopHandling.Ignore);
 
 
 builder.Services.Configure<ApiBehaviorOptions>(options =>
