@@ -133,12 +133,15 @@ namespace WebApi.Extensions
         }
         public static void ConfigureIdentity(this IServiceCollection services)
         {
-            var builder = services.AddIdentity<User, IdentityRole>(opt =>
+            var builder = services.AddIdentity<User, IdentityRole>(opts =>
             {
-                opt.Password.RequireDigit = true;
-                opt.Password.RequireLowercase = false;
-                opt.Password.RequireUppercase = false;
-                opt.Password.RequiredLength = 5;
+                opts.Password.RequireDigit = true;
+                opts.Password.RequireLowercase = false;
+                opts.Password.RequireUppercase = false;
+                opts.Password.RequireNonAlphanumeric = false;
+                opts.Password.RequiredLength = 6;
+
+                opts.User.RequireUniqueEmail = true;
             })
                 .AddEntityFrameworkStores<RepositoryContext>()
                 .AddDefaultTokenProviders();

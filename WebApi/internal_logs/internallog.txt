@@ -296,3 +296,22 @@
 2023-05-22 14:16:27.1423 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\elaka\OneDrive\Masaüstü\basics\bsStoreApp\WebApi\nlog.config
 2023-05-22 14:16:28.8687 Info AppDomain Shutting down. LogFactory closing...
 2023-05-22 14:16:28.8803 Info LogFactory has been closed.
+2023-05-22 15:21:20.6199 Info Message Template Auto Format enabled
+2023-05-22 15:21:21.8958 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-05-22 15:21:21.9706 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\elaka\OneDrive\Masaüstü\basics\bsStoreApp\WebApi\nlog.config
+2023-05-22 15:26:01.2958 Info Message Template Auto Format enabled
+2023-05-22 15:26:01.3609 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-05-22 15:26:01.3800 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\elaka\OneDrive\Masaüstü\basics\bsStoreApp\WebApi\nlog.config
+2023-05-22 15:26:02.7536 Info AppDomain Shutting down. LogFactory closing...
+2023-05-22 15:26:02.7536 Info LogFactory has been closed.
+2023-05-22 15:26:14.6954 Info Message Template Auto Format enabled
+2023-05-22 15:26:14.7399 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-05-22 15:26:14.7604 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\elaka\OneDrive\Masaüstü\basics\bsStoreApp\WebApi\nlog.config
+2023-05-22 15:26:17.8241 Info AppDomain Shutting down. LogFactory closing...
+2023-05-22 15:26:17.8327 Info LogFactory has been closed.
+2023-05-22 15:26:41.9101 Info Message Template Auto Format enabled
+2023-05-22 15:26:42.1326 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-05-22 15:26:42.1836 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\elaka\OneDrive\Masaüstü\basics\bsStoreApp\WebApi\nlog.config
+2023-05-22 15:29:29.2218 Info Message Template Auto Format enabled
+2023-05-22 15:29:29.5590 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-05-22 15:29:29.6455 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\elaka\OneDrive\Masaüstü\basics\bsStoreApp\WebApi\nlog.config
