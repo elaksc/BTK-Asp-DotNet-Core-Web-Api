@@ -30,7 +30,7 @@ builder.Services.Configure<ApiBehaviorOptions>(options =>
 });
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.ConfigureSwagger();
 
 builder.Services.ConfigureFilterAttribute();
 builder.Services.ConfigureSqlContext(builder.Configuration);
@@ -63,7 +63,11 @@ app.ConfigureExceptionHandler(logger);
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
-    app.UseSwaggerUI();
+    app.UseSwaggerUI(s =>
+    {
+        s.SwaggerEndpoint("/swagger/v1/swagger.json", "Btk Akademi v1");
+        s.SwaggerEndpoint("/swagger/v2/swagger.json", "Btk Akademi v2");
+    });
 }
 
 if (app.Environment.IsProduction())

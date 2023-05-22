@@ -11,7 +11,8 @@ namespace Presentation.Controller
     
     //[ApiVersion("2.0",Deprecated = true)]
     [ApiController]
-    [Route("api/books/deneme")]
+    [Route("api/books")]
+    [ApiExplorerSettings(GroupName = "v2")]
     public class BooksV2Controller: ControllerBase
     {
         private readonly IServiceManager _manager;

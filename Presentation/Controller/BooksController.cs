@@ -19,7 +19,8 @@ namespace Presentation.Controller
 {
     //[ApiVersion("1.0")]
     [ServiceFilter(typeof(LogFilterAttribute))]
-    [Route("api/books")] 
+    [Route("api/books")]
+    [ApiExplorerSettings(GroupName = "v1")]
     [ApiController]
     //[HttpCacheExpiration(CacheLocation = CacheLocation.Public,MaxAge =80)]
     //[ResponseCache(CacheProfileName = "5mins")]
