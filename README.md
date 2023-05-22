@@ -29,3 +29,12 @@ BTK Akademi ASP.NET Core Web API Eğitimi
  - &#9745; Hız Sınırlama ve Kısıtlama (Rate Limit and Throttling)
  - &#9745; JWT, Identity ve Refresh Token
  - &#9745; API Dokümantasyonu (API Documentation)
+
+## Utilizing the Repository
+To download the repository to your computer, you can use git.
+
+> git clone https://github.com/elaksc/BTK-Asp-DotNet-Core-Web-Api.git
+
+Navigate to the project folder and compile and run the project.
+
+> dotnet run
