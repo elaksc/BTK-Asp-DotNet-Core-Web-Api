@@ -15,3 +15,20 @@ C:\Users\lenovo\Desktop\Yeni klasör\basics\bsStoreApp\Services\obj\Debug\net6.0
 C:\Users\lenovo\Desktop\Yeni klasör\basics\bsStoreApp\Services\obj\Debug\net6.0\refint\Services.dll
 C:\Users\lenovo\Desktop\Yeni klasör\basics\bsStoreApp\Services\obj\Debug\net6.0\Services.pdb
 C:\Users\lenovo\Desktop\Yeni klasör\basics\bsStoreApp\Services\obj\Debug\net6.0\ref\Services.dll
+C:\Users\elaka\OneDrive\Masaüstü\basics\bsStoreApp\Services\bin\Debug\net6.0\Services.deps.json
+C:\Users\elaka\OneDrive\Masaüstü\basics\bsStoreApp\Services\bin\Debug\net6.0\Services.dll
+C:\Users\elaka\OneDrive\Masaüstü\basics\bsStoreApp\Services\bin\Debug\net6.0\Services.pdb
+C:\Users\elaka\OneDrive\Masaüstü\basics\bsStoreApp\Services\bin\Debug\net6.0\Entities.dll
+C:\Users\elaka\OneDrive\Masaüstü\basics\bsStoreApp\Services\bin\Debug\net6.0\Repositories.dll
+C:\Users\elaka\OneDrive\Masaüstü\basics\bsStoreApp\Services\bin\Debug\net6.0\Entities.pdb
+C:\Users\elaka\OneDrive\Masaüstü\basics\bsStoreApp\Services\bin\Debug\net6.0\Repositories.pdb
+C:\Users\elaka\OneDrive\Masaüstü\basics\bsStoreApp\Services\obj\Debug\net6.0\Services.csproj.AssemblyReference.cache
+C:\Users\elaka\OneDrive\Masaüstü\basics\bsStoreApp\Services\obj\Debug\net6.0\Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\elaka\OneDrive\Masaüstü\basics\bsStoreApp\Services\obj\Debug\net6.0\Services.AssemblyInfoInputs.cache
+C:\Users\elaka\OneDrive\Masaüstü\basics\bsStoreApp\Services\obj\Debug\net6.0\Services.AssemblyInfo.cs
+C:\Users\elaka\OneDrive\Masaüstü\basics\bsStoreApp\Services\obj\Debug\net6.0\Services.csproj.CoreCompileInputs.cache
+C:\Users\elaka\OneDrive\Masaüstü\basics\bsStoreApp\Services\obj\Debug\net6.0\Services.csproj.CopyComplete
+C:\Users\elaka\OneDrive\Masaüstü\basics\bsStoreApp\Services\obj\Debug\net6.0\Services.dll
+C:\Users\elaka\OneDrive\Masaüstü\basics\bsStoreApp\Services\obj\Debug\net6.0\refint\Services.dll
+C:\Users\elaka\OneDrive\Masaüstü\basics\bsStoreApp\Services\obj\Debug\net6.0\Services.pdb
+C:\Users\elaka\OneDrive\Masaüstü\basics\bsStoreApp\Services\obj\Debug\net6.0\ref\Services.dll

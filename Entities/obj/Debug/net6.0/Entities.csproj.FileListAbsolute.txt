@@ -10,3 +10,15 @@ C:\Users\lenovo\Desktop\Yeni klasör\basics\bsStoreApp\Entities\obj\Debug\net6.0
 C:\Users\lenovo\Desktop\Yeni klasör\basics\bsStoreApp\Entities\obj\Debug\net6.0\refint\Entities.dll
 C:\Users\lenovo\Desktop\Yeni klasör\basics\bsStoreApp\Entities\obj\Debug\net6.0\Entities.pdb
 C:\Users\lenovo\Desktop\Yeni klasör\basics\bsStoreApp\Entities\obj\Debug\net6.0\ref\Entities.dll
+C:\Users\elaka\OneDrive\Masaüstü\basics\bsStoreApp\Entities\bin\Debug\net6.0\Entities.deps.json
+C:\Users\elaka\OneDrive\Masaüstü\basics\bsStoreApp\Entities\bin\Debug\net6.0\Entities.dll
+C:\Users\elaka\OneDrive\Masaüstü\basics\bsStoreApp\Entities\bin\Debug\net6.0\Entities.pdb
+C:\Users\elaka\OneDrive\Masaüstü\basics\bsStoreApp\Entities\obj\Debug\net6.0\Entities.csproj.AssemblyReference.cache
+C:\Users\elaka\OneDrive\Masaüstü\basics\bsStoreApp\Entities\obj\Debug\net6.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\elaka\OneDrive\Masaüstü\basics\bsStoreApp\Entities\obj\Debug\net6.0\Entities.AssemblyInfoInputs.cache
+C:\Users\elaka\OneDrive\Masaüstü\basics\bsStoreApp\Entities\obj\Debug\net6.0\Entities.AssemblyInfo.cs
+C:\Users\elaka\OneDrive\Masaüstü\basics\bsStoreApp\Entities\obj\Debug\net6.0\Entities.csproj.CoreCompileInputs.cache
+C:\Users\elaka\OneDrive\Masaüstü\basics\bsStoreApp\Entities\obj\Debug\net6.0\Entities.dll
+C:\Users\elaka\OneDrive\Masaüstü\basics\bsStoreApp\Entities\obj\Debug\net6.0\refint\Entities.dll
+C:\Users\elaka\OneDrive\Masaüstü\basics\bsStoreApp\Entities\obj\Debug\net6.0\Entities.pdb
+C:\Users\elaka\OneDrive\Masaüstü\basics\bsStoreApp\Entities\obj\Debug\net6.0\ref\Entities.dll

@@ -239,3 +239,60 @@
 2023-04-28 20:02:11.5256 Info Message Template Auto Format enabled
 2023-04-28 20:02:11.9119 Info Registered target NLog.Targets.FileTarget(Name=logfile)
 2023-04-28 20:02:12.0710 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\lenovo\Desktop\Yeni klasör\basics\bsStoreApp\WebApi\nlog.config
+2023-04-29 12:57:56.9743 Info Message Template Auto Format enabled
+2023-04-29 12:57:57.5619 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-04-29 12:57:57.6441 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\lenovo\Desktop\Yeni klasör\basics\bsStoreApp\WebApi\nlog.config
+2023-04-29 13:00:43.6224 Info Message Template Auto Format enabled
+2023-04-29 13:00:43.9971 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-04-29 13:00:44.0592 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\lenovo\Desktop\Yeni klasör\basics\bsStoreApp\WebApi\nlog.config
+2023-04-29 13:01:26.2995 Info Message Template Auto Format enabled
+2023-04-29 13:01:26.6508 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-04-29 13:01:26.7254 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\lenovo\Desktop\Yeni klasör\basics\bsStoreApp\WebApi\nlog.config
+2023-04-29 13:12:17.0822 Info Message Template Auto Format enabled
+2023-04-29 13:12:17.3787 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-04-29 13:12:17.4498 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\lenovo\Desktop\Yeni klasör\basics\bsStoreApp\WebApi\nlog.config
+2023-05-22 14:03:49.2974 Info Message Template Auto Format enabled
+2023-05-22 14:03:49.3820 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-05-22 14:03:49.4069 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\elaka\OneDrive\Masaüstü\basics\bsStoreApp\WebApi\nlog.config
+2023-05-22 14:03:50.8133 Info AppDomain Shutting down. LogFactory closing...
+2023-05-22 14:03:50.8260 Info LogFactory has been closed.
+2023-05-22 14:05:42.4740 Info Message Template Auto Format enabled
+2023-05-22 14:05:42.5288 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-05-22 14:05:42.5487 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\elaka\OneDrive\Masaüstü\basics\bsStoreApp\WebApi\nlog.config
+2023-05-22 14:05:46.3369 Info AppDomain Shutting down. LogFactory closing...
+2023-05-22 14:05:46.3471 Info LogFactory has been closed.
+2023-05-22 14:06:56.8180 Info Message Template Auto Format enabled
+2023-05-22 14:06:56.8755 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-05-22 14:06:56.9001 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\elaka\OneDrive\Masaüstü\basics\bsStoreApp\WebApi\nlog.config
+2023-05-22 14:06:57.9929 Info AppDomain Shutting down. LogFactory closing...
+2023-05-22 14:06:58.0068 Info LogFactory has been closed.
+2023-05-22 14:07:00.7106 Info Message Template Auto Format enabled
+2023-05-22 14:07:00.8035 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-05-22 14:07:00.8395 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\elaka\OneDrive\Masaüstü\basics\bsStoreApp\WebApi\nlog.config
+2023-05-22 14:07:03.2359 Info AppDomain Shutting down. LogFactory closing...
+2023-05-22 14:07:03.2561 Info LogFactory has been closed.
+2023-05-22 14:07:15.9805 Info Message Template Auto Format enabled
+2023-05-22 14:07:16.0341 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-05-22 14:07:16.0544 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\elaka\OneDrive\Masaüstü\basics\bsStoreApp\WebApi\nlog.config
+2023-05-22 14:07:17.4416 Info AppDomain Shutting down. LogFactory closing...
+2023-05-22 14:07:17.4611 Info LogFactory has been closed.
+2023-05-22 14:07:27.9072 Info Message Template Auto Format enabled
+2023-05-22 14:07:27.9810 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-05-22 14:07:28.0081 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\elaka\OneDrive\Masaüstü\basics\bsStoreApp\WebApi\nlog.config
+2023-05-22 14:07:30.3025 Info AppDomain Shutting down. LogFactory closing...
+2023-05-22 14:07:30.3223 Info LogFactory has been closed.
+2023-05-22 14:15:33.4224 Info Message Template Auto Format enabled
+2023-05-22 14:15:33.4951 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-05-22 14:15:33.5153 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\elaka\OneDrive\Masaüstü\basics\bsStoreApp\WebApi\nlog.config
+2023-05-22 14:15:34.9759 Info AppDomain Shutting down. LogFactory closing...
+2023-05-22 14:15:34.9875 Info LogFactory has been closed.
+2023-05-22 14:16:17.2825 Info Message Template Auto Format enabled
+2023-05-22 14:16:17.3300 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-05-22 14:16:17.3506 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\elaka\OneDrive\Masaüstü\basics\bsStoreApp\WebApi\nlog.config
+2023-05-22 14:16:18.4483 Info AppDomain Shutting down. LogFactory closing...
+2023-05-22 14:16:18.4584 Info LogFactory has been closed.
+2023-05-22 14:16:27.0215 Info Message Template Auto Format enabled
+2023-05-22 14:16:27.1043 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-05-22 14:16:27.1423 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\elaka\OneDrive\Masaüstü\basics\bsStoreApp\WebApi\nlog.config
+2023-05-22 14:16:28.8687 Info AppDomain Shutting down. LogFactory closing...
+2023-05-22 14:16:28.8803 Info LogFactory has been closed.

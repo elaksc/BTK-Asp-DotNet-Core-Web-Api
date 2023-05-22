@@ -1,6 +1,8 @@
 ﻿using AspNetCoreRateLimit;
 using Entities.DataTransferObjects;
+using Entities.Models;
 using Microsoft.AspNetCore.DataProtection.Repositories;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Formatters;
 using Microsoft.AspNetCore.Mvc.Versioning;
@@ -19,7 +21,6 @@ namespace WebApi.Extensions
         public static void ConfigureSqlContext(this IServiceCollection services, IConfiguration configuration) //hangi ifadeyi, tipi genişletmek istiyorsak this ile vermek zorundayız. Onu yazarız ama kullanmayız başka yerde
         => services.AddDbContext<RepositoryContext>(options =>
               options.UseSqlServer(configuration.GetConnectionString("sqlConnection")));
-
         public static void ConfigureRepositoryManager(this IServiceCollection services)
         {
             services.AddScoped<IRepositoryManager, RepositoryManager>();
@@ -84,7 +85,6 @@ namespace WebApi.Extensions
                 }
             });
         }
-
         public static void ConfigureVersioning(this IServiceCollection services)
         {
             services.AddApiVersioning(opt =>
@@ -100,11 +100,8 @@ namespace WebApi.Extensions
                 .HasDeprecatedApiVersion(new ApiVersion(2, 0));
             });
         }
-
         public static void ConfigureResponseCaching(this IServiceCollection services) =>
             services.AddResponseCaching();
-
-
         public static void ConfigureHttpCacheHeaders(this IServiceCollection services) =>
             services.AddHttpCacheHeaders(expirationOpt =>
             {
@@ -115,7 +112,6 @@ namespace WebApi.Extensions
                 {
                     validationOpt.MustRevalidate = false;
                 });
-
         public static void ConfigureRateLimitingOptions(this IServiceCollection services)
         {
             var rateLimitRules = new List<RateLimitRule>()
@@ -135,7 +131,19 @@ namespace WebApi.Extensions
             services.AddSingleton<IRateLimitConfiguration, RateLimitConfiguration>();
             services.AddSingleton<IProcessingStrategy, AsyncKeyLockProcessingStrategy>();
         }
-
+        public static void ConfigureIdentity(this IServiceCollection services)
+        {
+            var builder = services.AddIdentity<User, IdentityRole>(opt =>
+            {
+                opt.Password.RequireDigit = true;
+                opt.Password.RequireLowercase = false;
+                opt.Password.RequireUppercase = false;
+                opt.Password.RequiredLength = 5;
+            })
+                .AddEntityFrameworkStores<RepositoryContext>()
+                .AddDefaultTokenProviders();
+            
+        }
     }
 }
 

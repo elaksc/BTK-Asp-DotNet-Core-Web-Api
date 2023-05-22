@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lenovo\\Desktop\\Yeni klasör\\basics\\bsStoreApp\\Entities\\Entities.csproj": {}
+    "C:\\Users\\elaka\\OneDrive\\Masaüstü\\basics\\bsStoreApp\\Entities\\Entities.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lenovo\\Desktop\\Yeni klasör\\basics\\bsStoreApp\\Entities\\Entities.csproj": {
+    "C:\\Users\\elaka\\OneDrive\\Masaüstü\\basics\\bsStoreApp\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lenovo\\Desktop\\Yeni klasör\\basics\\bsStoreApp\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\elaka\\OneDrive\\Masaüstü\\basics\\bsStoreApp\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\lenovo\\Desktop\\Yeni klasör\\basics\\bsStoreApp\\Entities\\Entities.csproj",
-        "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lenovo\\Desktop\\Yeni klasör\\basics\\bsStoreApp\\Entities\\obj\\",
+        "projectPath": "C:\\Users\\elaka\\OneDrive\\Masaüstü\\basics\\bsStoreApp\\Entities\\Entities.csproj",
+        "packagesPath": "C:\\Users\\elaka\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\elaka\\OneDrive\\Masaüstü\\basics\\bsStoreApp\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\elaka\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -40,6 +40,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
             "Microsoft.AspNetCore.Mvc.Abstractions": {
               "target": "Package",
               "version": "[2.2.0, )"

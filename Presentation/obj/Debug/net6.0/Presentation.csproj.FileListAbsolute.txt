@@ -17,3 +17,22 @@ C:\Users\lenovo\Desktop\Yeni klasör\basics\bsStoreApp\Presentation\obj\Debug\ne
 C:\Users\lenovo\Desktop\Yeni klasör\basics\bsStoreApp\Presentation\obj\Debug\net6.0\refint\Presentation.dll
 C:\Users\lenovo\Desktop\Yeni klasör\basics\bsStoreApp\Presentation\obj\Debug\net6.0\Presentation.pdb
 C:\Users\lenovo\Desktop\Yeni klasör\basics\bsStoreApp\Presentation\obj\Debug\net6.0\ref\Presentation.dll
+C:\Users\elaka\OneDrive\Masaüstü\basics\bsStoreApp\Presentation\bin\Debug\net6.0\Presentation.deps.json
+C:\Users\elaka\OneDrive\Masaüstü\basics\bsStoreApp\Presentation\bin\Debug\net6.0\Presentation.dll
+C:\Users\elaka\OneDrive\Masaüstü\basics\bsStoreApp\Presentation\bin\Debug\net6.0\Presentation.pdb
+C:\Users\elaka\OneDrive\Masaüstü\basics\bsStoreApp\Presentation\bin\Debug\net6.0\Entities.dll
+C:\Users\elaka\OneDrive\Masaüstü\basics\bsStoreApp\Presentation\bin\Debug\net6.0\Repositories.dll
+C:\Users\elaka\OneDrive\Masaüstü\basics\bsStoreApp\Presentation\bin\Debug\net6.0\Services.dll
+C:\Users\elaka\OneDrive\Masaüstü\basics\bsStoreApp\Presentation\bin\Debug\net6.0\Services.pdb
+C:\Users\elaka\OneDrive\Masaüstü\basics\bsStoreApp\Presentation\bin\Debug\net6.0\Entities.pdb
+C:\Users\elaka\OneDrive\Masaüstü\basics\bsStoreApp\Presentation\bin\Debug\net6.0\Repositories.pdb
+C:\Users\elaka\OneDrive\Masaüstü\basics\bsStoreApp\Presentation\obj\Debug\net6.0\Presentation.csproj.AssemblyReference.cache
+C:\Users\elaka\OneDrive\Masaüstü\basics\bsStoreApp\Presentation\obj\Debug\net6.0\Presentation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\elaka\OneDrive\Masaüstü\basics\bsStoreApp\Presentation\obj\Debug\net6.0\Presentation.AssemblyInfoInputs.cache
+C:\Users\elaka\OneDrive\Masaüstü\basics\bsStoreApp\Presentation\obj\Debug\net6.0\Presentation.AssemblyInfo.cs
+C:\Users\elaka\OneDrive\Masaüstü\basics\bsStoreApp\Presentation\obj\Debug\net6.0\Presentation.csproj.CoreCompileInputs.cache
+C:\Users\elaka\OneDrive\Masaüstü\basics\bsStoreApp\Presentation\obj\Debug\net6.0\Presentation.csproj.CopyComplete
+C:\Users\elaka\OneDrive\Masaüstü\basics\bsStoreApp\Presentation\obj\Debug\net6.0\Presentation.dll
+C:\Users\elaka\OneDrive\Masaüstü\basics\bsStoreApp\Presentation\obj\Debug\net6.0\refint\Presentation.dll
+C:\Users\elaka\OneDrive\Masaüstü\basics\bsStoreApp\Presentation\obj\Debug\net6.0\Presentation.pdb
+C:\Users\elaka\OneDrive\Masaüstü\basics\bsStoreApp\Presentation\obj\Debug\net6.0\ref\Presentation.dll

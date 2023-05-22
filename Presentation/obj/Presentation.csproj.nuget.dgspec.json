@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lenovo\\Desktop\\Yeni klasör\\basics\\bsStoreApp\\Presentation\\Presentation.csproj": {}
+    "C:\\Users\\elaka\\OneDrive\\Masaüstü\\basics\\bsStoreApp\\Presentation\\Presentation.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lenovo\\Desktop\\Yeni klasör\\basics\\bsStoreApp\\Entities\\Entities.csproj": {
+    "C:\\Users\\elaka\\OneDrive\\Masaüstü\\basics\\bsStoreApp\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lenovo\\Desktop\\Yeni klasör\\basics\\bsStoreApp\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\elaka\\OneDrive\\Masaüstü\\basics\\bsStoreApp\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\lenovo\\Desktop\\Yeni klasör\\basics\\bsStoreApp\\Entities\\Entities.csproj",
-        "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lenovo\\Desktop\\Yeni klasör\\basics\\bsStoreApp\\Entities\\obj\\",
+        "projectPath": "C:\\Users\\elaka\\OneDrive\\Masaüstü\\basics\\bsStoreApp\\Entities\\Entities.csproj",
+        "packagesPath": "C:\\Users\\elaka\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\elaka\\OneDrive\\Masaüstü\\basics\\bsStoreApp\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\elaka\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -40,6 +40,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
             "Microsoft.AspNetCore.Mvc.Abstractions": {
               "target": "Package",
               "version": "[2.2.0, )"
@@ -65,17 +69,17 @@
         }
       }
     },
-    "C:\\Users\\lenovo\\Desktop\\Yeni klasör\\basics\\bsStoreApp\\Presentation\\Presentation.csproj": {
+    "C:\\Users\\elaka\\OneDrive\\Masaüstü\\basics\\bsStoreApp\\Presentation\\Presentation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lenovo\\Desktop\\Yeni klasör\\basics\\bsStoreApp\\Presentation\\Presentation.csproj",
+        "projectUniqueName": "C:\\Users\\elaka\\OneDrive\\Masaüstü\\basics\\bsStoreApp\\Presentation\\Presentation.csproj",
         "projectName": "Presentation",
-        "projectPath": "C:\\Users\\lenovo\\Desktop\\Yeni klasör\\basics\\bsStoreApp\\Presentation\\Presentation.csproj",
-        "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lenovo\\Desktop\\Yeni klasör\\basics\\bsStoreApp\\Presentation\\obj\\",
+        "projectPath": "C:\\Users\\elaka\\OneDrive\\Masaüstü\\basics\\bsStoreApp\\Presentation\\Presentation.csproj",
+        "packagesPath": "C:\\Users\\elaka\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\elaka\\OneDrive\\Masaüstü\\basics\\bsStoreApp\\Presentation\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\elaka\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -89,8 +93,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\lenovo\\Desktop\\Yeni klasör\\basics\\bsStoreApp\\Services\\Services.csproj": {
-                "projectPath": "C:\\Users\\lenovo\\Desktop\\Yeni klasör\\basics\\bsStoreApp\\Services\\Services.csproj"
+              "C:\\Users\\elaka\\OneDrive\\Masaüstü\\basics\\bsStoreApp\\Services\\Services.csproj": {
+                "projectPath": "C:\\Users\\elaka\\OneDrive\\Masaüstü\\basics\\bsStoreApp\\Services\\Services.csproj"
               }
             }
           }
@@ -146,17 +150,17 @@
         }
       }
     },
-    "C:\\Users\\lenovo\\Desktop\\Yeni klasör\\basics\\bsStoreApp\\Repositories\\Repositories.csproj": {
+    "C:\\Users\\elaka\\OneDrive\\Masaüstü\\basics\\bsStoreApp\\Repositories\\Repositories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lenovo\\Desktop\\Yeni klasör\\basics\\bsStoreApp\\Repositories\\Repositories.csproj",
+        "projectUniqueName": "C:\\Users\\elaka\\OneDrive\\Masaüstü\\basics\\bsStoreApp\\Repositories\\Repositories.csproj",
         "projectName": "Repositories",
-        "projectPath": "C:\\Users\\lenovo\\Desktop\\Yeni klasör\\basics\\bsStoreApp\\Repositories\\Repositories.csproj",
-        "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lenovo\\Desktop\\Yeni klasör\\basics\\bsStoreApp\\Repositories\\obj\\",
+        "projectPath": "C:\\Users\\elaka\\OneDrive\\Masaüstü\\basics\\bsStoreApp\\Repositories\\Repositories.csproj",
+        "packagesPath": "C:\\Users\\elaka\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\elaka\\OneDrive\\Masaüstü\\basics\\bsStoreApp\\Repositories\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\elaka\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -170,8 +174,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\lenovo\\Desktop\\Yeni klasör\\basics\\bsStoreApp\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\lenovo\\Desktop\\Yeni klasör\\basics\\bsStoreApp\\Entities\\Entities.csproj"
+              "C:\\Users\\elaka\\OneDrive\\Masaüstü\\basics\\bsStoreApp\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\elaka\\OneDrive\\Masaüstü\\basics\\bsStoreApp\\Entities\\Entities.csproj"
               }
             }
           }
@@ -186,6 +190,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.10, )"
@@ -215,17 +223,17 @@
         }
       }
     },
-    "C:\\Users\\lenovo\\Desktop\\Yeni klasör\\basics\\bsStoreApp\\Services\\Services.csproj": {
+    "C:\\Users\\elaka\\OneDrive\\Masaüstü\\basics\\bsStoreApp\\Services\\Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lenovo\\Desktop\\Yeni klasör\\basics\\bsStoreApp\\Services\\Services.csproj",
+        "projectUniqueName": "C:\\Users\\elaka\\OneDrive\\Masaüstü\\basics\\bsStoreApp\\Services\\Services.csproj",
         "projectName": "Services",
-        "projectPath": "C:\\Users\\lenovo\\Desktop\\Yeni klasör\\basics\\bsStoreApp\\Services\\Services.csproj",
-        "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lenovo\\Desktop\\Yeni klasör\\basics\\bsStoreApp\\Services\\obj\\",
+        "projectPath": "C:\\Users\\elaka\\OneDrive\\Masaüstü\\basics\\bsStoreApp\\Services\\Services.csproj",
+        "packagesPath": "C:\\Users\\elaka\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\elaka\\OneDrive\\Masaüstü\\basics\\bsStoreApp\\Services\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\elaka\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -239,11 +247,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\lenovo\\Desktop\\Yeni klasör\\basics\\bsStoreApp\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\lenovo\\Desktop\\Yeni klasör\\basics\\bsStoreApp\\Entities\\Entities.csproj"
+              "C:\\Users\\elaka\\OneDrive\\Masaüstü\\basics\\bsStoreApp\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\elaka\\OneDrive\\Masaüstü\\basics\\bsStoreApp\\Entities\\Entities.csproj"
               },
-              "C:\\Users\\lenovo\\Desktop\\Yeni klasör\\basics\\bsStoreApp\\Repositories\\Repositories.csproj": {
-                "projectPath": "C:\\Users\\lenovo\\Desktop\\Yeni klasör\\basics\\bsStoreApp\\Repositories\\Repositories.csproj"
+              "C:\\Users\\elaka\\OneDrive\\Masaüstü\\basics\\bsStoreApp\\Repositories\\Repositories.csproj": {
+                "projectPath": "C:\\Users\\elaka\\OneDrive\\Masaüstü\\basics\\bsStoreApp\\Repositories\\Repositories.csproj"
               }
             }
           }
