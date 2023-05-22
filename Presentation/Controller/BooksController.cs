@@ -53,7 +53,7 @@ namespace Presentation.Controller
                 Ok(result.linkResponse.ShapedEntities);
         }
 
-
+        [Authorize(Roles = "Editor, Admin")]
         [HttpGet("{id:int}")]
         public async Task<IActionResult> GetOneBookAsync([FromRoute(Name = "id")] int id)
         {
@@ -63,6 +63,7 @@ namespace Presentation.Controller
             return Ok(book);
         }
 
+        [Authorize(Roles = "Admin, Editor")]
         [ServiceFilter(typeof(ValidationFilterAttribute))] //Bunun sayesinde aşağıdaki kod bloklarına ihtiyaç olmayacak
         [HttpPost(Name = "CreateOneBookAsync")]
         public async Task<IActionResult> CreateOneBookAsync([FromBody] BookDtoForInsertion bookDto)
@@ -70,6 +71,8 @@ namespace Presentation.Controller
             var book = await _manager.BookService.CreateOneBookAsync(bookDto);
             return StatusCode(201, book); //CreatedAtRoute()
         }
+
+        [Authorize(Roles = "Admin, Editor")]
         [ServiceFilter(typeof(ValidationFilterAttribute))] //Bunun sayesinde aşağıdaki kod bloklarına ihtiyaç olmayacak
         [HttpPut("{id:int}")]
         public async Task<IActionResult> UpdateOneBookAsync([FromRoute(Name = "id")] int id, [FromBody] BookDtoForUpdate bookDto)
@@ -80,6 +83,7 @@ namespace Presentation.Controller
         }
 
 
+        [Authorize(Roles = "Admin")]
         [HttpDelete("{id:int}")]
         public async Task<IActionResult> DeleteOneBookAsync([FromRoute(Name = "id")] int id)
         {
@@ -88,6 +92,7 @@ namespace Presentation.Controller
         }
 
 
+        [Authorize(Roles = "Admin, Editor")]
         [HttpPatch("{id:int}")]
         public async Task<IActionResult> PartiallyUpdateOneBookAsync([FromRoute] int id, [FromBody] JsonPatchDocument<BookDtoForUpdate> bookPatch)
         {
@@ -107,15 +112,13 @@ namespace Presentation.Controller
             await _manager.BookService.SaveChancesForPatchAsync(result.bookDtoForUpdate, result.book);
             return NoContent();
         }
+        [Authorize]
         [HttpOptions]
         public IActionResult GetBookOptions()
         {
             Response.Headers.Add("Allow", "GET, PUT, POST, PATCH, DELETE, HEAD, OPTIONS");
             return Ok();
         }
-
-        
-
     }
 
 }

@@ -26,9 +26,9 @@ namespace Presentation.Controller
         public async Task<IActionResult> RegisterUSer([FromBody] UserForRegistirationDto userForRegistirationDto)
         {
             var result = await _serviceManager.AuthenticationService.RegisterUser(userForRegistirationDto);
-            if(!result.Succeeded)
+            if (!result.Succeeded)
             {
-                foreach(var error in result.Errors)
+                foreach (var error in result.Errors)
                 {
                     ModelState.TryAddModelError(error.Code, error.Description);
 
@@ -41,15 +41,26 @@ namespace Presentation.Controller
 
         [HttpPost("login")]
         [ServiceFilter(typeof(ValidationFilterAttribute))]
-        public async Task<IActionResult> Authenticate([FromBody]UserForAuthenticationDto user)
+        public async Task<IActionResult> Authenticate([FromBody] UserForAuthenticationDto user)
         {
             if (!await _serviceManager.AuthenticationService.ValidateUser(user))
                 return Unauthorized();
 
-            return Ok(new
-            {
-                Token = await _serviceManager.AuthenticationService.CreateToken()
-            });
+            var tokenDto = await _serviceManager.AuthenticationService.CreateToken(true);
+            return Ok(tokenDto);
         }
+
+        [HttpPost("refresh")]
+        [ServiceFilter(typeof(ValidationFilterAttribute))]
+        public async Task<IActionResult> Refresh([FromBody]TokenDto tokenDto)
+        {
+            var tokenDtoReturn = await _serviceManager
+                .AuthenticationService
+                .RefreshToken(tokenDto);
+
+            return Ok(tokenDtoReturn);
+        }
+
     }
+
 }
