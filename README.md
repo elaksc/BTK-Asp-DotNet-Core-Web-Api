@@ -27,6 +27,5 @@ BTK Akademi ASP.NET Core Web API Eğitimi
  - &#9745; Versiyonlama (Versioning)
  - &#9745; Önbelleğe Alma (Caching)
  - &#9745; Hız Sınırlama ve Kısıtlama (Rate Limit and Throttling)
- - JWT, Identity ve Refresh Token
- - API Dokümantasyonu (API Documentation)
- - Bonus
+ - &#9745; JWT, Identity ve Refresh Token
+ - &#9745; API Dokümantasyonu (API Documentation)
