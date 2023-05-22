@@ -183,3 +183,4 @@ C:\Users\elaka\OneDrive\Masaüstü\basics\bsStoreApp\WebApi\obj\Debug\net6.0\ref
 C:\Users\elaka\OneDrive\Masaüstü\basics\bsStoreApp\WebApi\obj\Debug\net6.0\WebApi.pdb
 C:\Users\elaka\OneDrive\Masaüstü\basics\bsStoreApp\WebApi\obj\Debug\net6.0\WebApi.genruntimeconfig.cache
 C:\Users\elaka\OneDrive\Masaüstü\basics\bsStoreApp\WebApi\obj\Debug\net6.0\ref\WebApi.dll
+C:\Users\elaka\OneDrive\Masaüstü\basics\bsStoreApp\WebApi\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

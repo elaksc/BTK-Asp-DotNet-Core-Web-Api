@@ -18,6 +18,8 @@ namespace Services.Contracts
         private readonly UserManager<User> _userManager;
         private readonly IConfiguration _configuration;
 
+        private User? _user;
+
         public AuthenticationManager(ILoggerService logger,
             IMapper mapper, 
             UserManager<User> userManager, 
@@ -38,6 +40,15 @@ namespace Services.Contracts
             {
                 await _userManager.AddToRolesAsync(user, userForRegistirationDto.Roles);
             }
+            return result;
+        }
+
+        public async Task<bool> ValidateUser(UserForAuthenticationDto userForAuthenticationDto)
+        {
+            _user = await _userManager.FindByNameAsync(userForAuthenticationDto.UserName);
+            var result = (_user != null && await _userManager.CheckPasswordAsync(_user, userForAuthenticationDto.Password));
+            if (!result)
+                _logger.LogWarning($"{nameof(ValidateUser)} : Authentication failder. Wrong username or password");
             return result;
         }
     }

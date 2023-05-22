@@ -3,6 +3,7 @@ using Entities.Exceptions;
 using Entities.Models;
 using Entities.RequestFeatures;
 using Marvin.Cache.Headers;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
 using Presentation.ActionFilters;
@@ -31,6 +32,7 @@ namespace Presentation.Controller
             _manager = manager;
         }
 
+        [Authorize]
         [HttpHead]
         //[ResponseCache(Duration = 60)]
         [HttpGet(Name = "GetAllBooksAsync")]
