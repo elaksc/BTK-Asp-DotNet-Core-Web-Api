@@ -4,6 +4,7 @@ using Entities.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
+using Services.Contracts;
 using System;
 using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
@@ -12,7 +13,7 @@ using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Services.Contracts
+namespace Services
 {
     public class AuthenticationManager : IAuthenticationService
     {
@@ -24,8 +25,8 @@ namespace Services.Contracts
         private User? _user;
 
         public AuthenticationManager(ILoggerService logger,
-            IMapper mapper, 
-            UserManager<User> userManager, 
+            IMapper mapper,
+            UserManager<User> userManager,
             IConfiguration configuration)
         {
             _logger = logger;
@@ -39,7 +40,7 @@ namespace Services.Contracts
             var user = _mapper.Map<User>(userForRegistirationDto);
             var result = await _userManager.CreateAsync(user, userForRegistirationDto.Password);
 
-            if(result.Succeeded)
+            if (result.Succeeded)
             {
                 await _userManager.AddToRolesAsync(user, userForRegistirationDto.Roles);
             }
@@ -49,7 +50,7 @@ namespace Services.Contracts
         public async Task<bool> ValidateUser(UserForAuthenticationDto userForAuthenticationDto)
         {
             _user = await _userManager.FindByNameAsync(userForAuthenticationDto.UserName);
-            var result = (_user != null && await _userManager.CheckPasswordAsync(_user, userForAuthenticationDto.Password));
+            var result = _user != null && await _userManager.CheckPasswordAsync(_user, userForAuthenticationDto.Password);
             if (!result)
                 _logger.LogWarning($"{nameof(ValidateUser)} : Authentication failder. Wrong username or password");
             return result;
