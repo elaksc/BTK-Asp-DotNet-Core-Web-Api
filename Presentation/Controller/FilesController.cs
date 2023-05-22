@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.StaticFiles;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -35,6 +36,20 @@ namespace Presentation.Controller
                 path = path,
                 size = file.Length
             });
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> Download(string filename)
+        {
+            var filePath = Path.Combine(Directory.GetCurrentDirectory(), "Media", filename);
+            var provider = new FileExtensionContentTypeProvider();
+            if(!provider.TryGetContentType(filename, out var contentType))
+            {
+                contentType = "application/octet-stream";
+            }
+            var bytes = await System.IO.File.ReadAllBytesAsync(filePath);
+            return File(bytes,contentType,Path.GetFileName(filePath));
+
         }
     }
 }
